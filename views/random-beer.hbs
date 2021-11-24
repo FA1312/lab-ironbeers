@@ -1,0 +1,14 @@
+<div class="random-beer-container">
+  {{#each responseFromApi}}
+    <img src="{{image_url}}" alt="random">
+    <h2>{{name}}</h2>
+    <div>
+      {{description}}
+    </div>
+    <div>
+      {{tagline}}
+    </div>
+    {{food_pairing}} <br>
+    {{brewers_tips}}
+  {{/each}}
+</div>
