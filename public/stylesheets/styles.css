@@ -60,3 +60,64 @@ footer {
   padding: 1rem;
   font-weight: bold;
 }
+
+.img-random{
+  display: flex;
+  margin: 3.5rem 6rem 2.5rem 2rem;
+  justify-content: center;
+}
+
+.img-random img{
+  width: 7%;
+}
+
+.titledescription{
+  margin: 0rem 0rem 0rem 3rem;
+}
+
+.titledescription h2{
+  margin-bottom: 3rem ;
+  letter-spacing: 0.2rem;
+}
+
+.titledescription p{
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}
+
+.titledescription h3{
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.pair-random {
+  display: flex;
+  justify-content: center;
+}
+.pair-random h3{
+  margin-bottom: 1rem;
+  font-size:1rem;
+  letter-spacing: 0.1rem;
+}
+
+.pair {
+  border: #2081c3 solid 0.5rem;
+  padding: 1.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border-radius: 20%;
+}
+
+.pair li{
+  margin-top: 0.5rem;
+}
+
+.brewers-tip{
+  border: orange solid 0.5rem;
+  padding: 1.5rem;
+  margin-right: 4rem;
+  line-height: 1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 20%
+}
+
