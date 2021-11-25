@@ -68,7 +68,7 @@ footer {
 }
 
 .img-random img{
-  width: 7%;
+  width: 6%;
 }
 
 .titledescription{
@@ -121,3 +121,35 @@ footer {
   border-radius: 20%
 }
 
+.beers-container {
+  display: flex;
+  margin: 4rem;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.img-description img{
+  width: 6%;
+  display: flex;
+  justify-content: center;
+  margin-left: 31rem;
+  padding: 2rem
+}
+
+.name-tagline {
+  margin-right: 3rem;
+  padding: 3rem;
+  border-top: 3px dashed #bbb;
+}
+
+.beer-paragraph {
+  margin: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 3rem;
+}
+
+.name-tagline h3 {
+  margin-top: 2rem;
+  letter-spacing: 0.2rem;
+}
