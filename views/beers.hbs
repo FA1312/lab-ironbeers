@@ -1,12 +1,5 @@
-<div class="beers-container">
+<div class="beers">
   {{#each beers}}
-  <div class="name-tagline">
-    <h2>{{name}}</h2>
-    <h3>{{tagline}}</h3>
-  </div>
-  <div class="img-description">
-    <img src="{{image_url}}" alt="beer-img">
-    <p class="beer-paragraph">{{description}}</p>
-  </div>
-{{/each}}
+    {{> beerpartial this}}
+  {{/each}}
 </div>
